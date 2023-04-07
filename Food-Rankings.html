@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Food Rankings</title>
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+var option1value = document.getElementById("option1").value;
+var option2value = document.getElementById("option2").value;
+var option3value = document.getElementById("option3").value;
+var option4value = document.getElementById("option4").value;
+var option5value = document.getElementById("option5").value;
+var option6value = document.getElementById("option6").value;
+var option7value = document.getElementById("option7").value;
+
+function option1Update(option1value){
+var option1value = document.getElementById("option1").value;
+document.getElementById("val1").innerHTML=option1value
+}
+
+function option2Update(option2value){
+var option2value = document.getElementById("option2").value;
+document.getElementById("val2").innerHTML=option2value
+}
+function option3Update(option3value){
+var option3value = document.getElementById("option3").value;
+document.getElementById("val3").innerHTML=option3value
+}
+
+function option4Update(option2value){
+var option4value = document.getElementById("option4").value;
+document.getElementById("val4").innerHTML=option4value
+}
+function option5Update(option5value){
+var option5value = document.getElementById("option5").value;
+document.getElementById("val5").innerHTML=option5value
+}
+
+function option6Update(option6value){
+var option6value = document.getElementById("option6").value;
+document.getElementById("val6").innerHTML=option6value
+}
+function option7Update(option7value){
+var option7value = document.getElementById("option7").value;
+document.getElementById("val7").innerHTML=option7value
+};
+</script>
+<br><br>
+<table align=center border=0 width=500>
+<tr>
+<td>
+<h3>
+Bacon Wrapped Chicken
+</h3></td>
+<td>
+<h3>
+<input type="range" id="option1" min="0" max="5" step="1" value="0" onchange=option1Update(option1value)><span id="val1">0</span></input>
+</h3></td>
+</tr>
+<td>
+<h3>
+Mini Cordon Bleu
+</h3></td>
+<td><h3>
+<input type="range" id="option2" min="0" max="5" step="1" value="0" onchange=option2Update(option2value)><span id="val2">0</span></input>
+</h3></td>
+</tr>
+<td>
+<h3>
+Spinach Artichoke Dip</h3></td>
+<td><h3><input type="range" id="option3" min="0" max="5" step="1" value="0" onchange=option3Update(option3value)><span id="val3">0</span></input>
+</h3></td>
+</tr>
+<td><h3>
+Queso Fondito Con Chorizo</h3></td>
+<td><h3><input type="range" id="option4" min="0" max="5" step="1" value="0" onchange=option4Update(option2value)><span id="val4">0</span></input>
+</h3></td>
+</tr>
+<tr>
+<td><h3>
+Thai Chicken Spring Rolls</h3></td>
+<td><h3><input type="range" id="option5" min="0" max="5" step="1" value="0" onchange=option5Update(option5value)><span id="val5">0</span></input>
+</h3></td>
+</tr>
+<td><h3>
+Parmesan Chicken Strips</h3></td>
+<td><h3><input type="range" id="option6" min="0" max="5" step="1" value="0" onchange=option6Update(option6value)><span id="val6">0</span></input>
+</h3></td>
+</tr>
+<td><h3>
+Sausage Puff Pastry</h3></td>
+<td><h3><input type="range" id="option7" min="0" max="5" step="1" value="0" onchange=option7Update(option7value)><span id="val7">0</span></input>
+</h3></td>
+</tr>
+</table>
+</body>
+</html>
